@@ -1,4 +1,7 @@
-@media(max-width: 992px){
+@media(max-width: 991px){
+    .bannar h1 {
+        font-size: 60px;
+    }
     .testi_img img {
         height: 40px;
         width: 40px !important;        
