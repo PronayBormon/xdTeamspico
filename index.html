@@ -178,35 +178,39 @@
         <button type="button" data-filter=".web">web Designs</button>
         <button type="button" data-filter=".market">marketing metarials</button>
         </form>
-  </div>
+      </div>
 
 
   <div class="row">
     
-      <div class="masonary gallary">
-        <div class="grid_images mix market">
-          <img src="images/Project 01.png"  alt="">
-          <h1>product mockup</h1>
-        </div>
-        <div class="grid_images mix web">
-          <img src="images/Project 04.png"  class="img-fluid" alt="">
-          <h1>product mockup</h1>
-        </div>
-        <div class="grid_images mix ui ">
-          <img src="images/Project 05.png"  class="img-fluid"  alt="">
-          <h1>product mockup</h1>
-        </div>
-        <div class="grid_images mix web">
-          <img src="images/Project 02.png"  class="img-fluid"  alt="">
-          <h1>product mockup</h1>
-        </div>
-        <div class="grid_images mix market">
-          <img src="images/Project 03.png"  class="img-fluid"  alt="">
-          <h1>product mockup</h1>
-        </div>
-        <div class="grid_images mix ui" data-order="1">
-          <img src="images/Project 06.png"  class="img-fluid"  alt="">
-          <h1>product mockup</h1>
+      <div class="col-md-12">
+        <div class="grid-wrapper gallary">
+          <div class=" big mix ui section market ">
+            <img src="images/Project 01.png"  alt="">
+            <h1>product mockup</h1>
+          </div>
+
+          <div class=" small mix web market section">
+            <img src="images/Project 04.png"  class="img-fluid" alt="">
+            <h1>product mockup</h1>
+          </div>
+          <div class="small mix ui section">
+            <img src="images/Project 05.png"  class="img-fluid"  alt="">
+            <h1>product mockup</h1>
+          </div> 
+          <div class="big mix web section">
+            <img src="images/Project 02.png"  class="img-fluid"  alt="">
+            <h1>product mockup</h1>
+          </div>
+          <div class="small mix market section">
+            <h1>product mockup</h1>
+            <img src="images/Project 03.png"  class="img-fluid"  alt="">
+            
+          </div>
+          <div class="small web mix ui section" data-order="1">
+            <img src="images/Project 06.png"  class="img-fluid"  alt="">
+            <h1>product mockup</h1>
+          </div>
         </div>
       </div>
   
@@ -588,7 +592,7 @@
        
 
 <!-- contact us part start here  -->
-<section class="contact_us py-5">
+<section class="contact_us pt-5">
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-8 m-auto text-center">
@@ -640,8 +644,9 @@
 </section>
 <!-- contact us part end here  -->
 
+
 <!-- back to top  -->
-<a href="#" id="scroll" style="display: none;"><span></span></a>
+<a href="#" id="scroll" style="display: none; z-index: 999;"><span></span></a>
 
   
 
@@ -697,6 +702,9 @@
             center:true
           },
           600:{
+              items:3
+          },
+          1000:{
               items:3
           }
         }
